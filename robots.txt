@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://two678.github.io/sitemap.xml
