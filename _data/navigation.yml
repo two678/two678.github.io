@@ -5,8 +5,8 @@ main:
   - title: "About"
      url:  /about/
    - title: "Years"
-     url: /year
+     url: /year/
    - title: "Tags"
      url: /tags/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  #- title: "Sitemap"
+  #  url: /sitemap/
