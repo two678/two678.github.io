@@ -101,10 +101,14 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:two6788@gmail.com"
+     # url: "mailto:two6788@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
+<<<<<<< HEAD
      # url: "https://two678.github.io/"
+=======
+       url: "https://two678.github.io/"
+>>>>>>> b559f8a0fde6850c02987f5aadcba3b076f8a6ad
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
