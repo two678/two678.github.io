@@ -240,22 +240,25 @@ whitelist:
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
+  type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
+ jekyll-archives:
+   enabled: []
 #     - categories
 #     - tags
-#   layouts:
+   layouts: archive
 #     category: archive-taxonomy
 #     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+   permalinks:
+     year: '/:year/'
+     month: '/:year/:month/'
+     day: '/:year/:month/:day/'
+     category: '/categories/:name/'
+     tag: '/tags/:name/'
 
 
 # HTML Compression
